@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
         }
         animatable.start();
     }
+
+    public void onSearchClick(View view) {
+        startAnim(view);
+    }
 }
